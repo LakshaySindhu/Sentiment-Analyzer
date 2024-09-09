@@ -11,12 +11,13 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <h1>Sentiment Analyzer</h1>
-        <textarea id="text" rows="4" cols="50" placeholder="Enter text..."></textarea><br>
-        <button onclick="analyzeText()">Analyze</button>
-        <div class="result" id="result"></div>
+    <div class="div1">
+        <div class="container">
+            <h1>Sentiment Analyzer</h1>
+            <textarea id="text" rows="4" cols="50" placeholder="Enter text..."></textarea><br>
+            <button onclick="analyzeText()">Analyze</button>
+            <div class="result" id="result"></div>
+        </div>
     </div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
